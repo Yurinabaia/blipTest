@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qJinYeyIJ7eRdTlDxnSqb6ZE/3g5Q2JETK5uZlMrrh/M/X0cEsvKvyl29sB36yaU7I1ft6xHi6zygEGWpV/olA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuri.duarte\\source\\repos\\HerokuDockerDeployment\\HerokuDockerDeployment\\HerokuDockerDeployment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuri.duarte\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\yuri.duarte\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\yuri.duarte\\.nuget\\packages\\refit\\5.0.23\\refit.5.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
