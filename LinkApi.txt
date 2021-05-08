@@ -1,5 +1,5 @@
 https://nabayherasp.herokuapp.com/WeatherForecast/takenet/<repositorio>
 
-Os repositorios estão listando em ordem decrescente de acordo coma data de criação.
+Os repositorios estão listado em ordem decrescente, deacordo com a data de criação.
 
 Começar do repositorio 0
