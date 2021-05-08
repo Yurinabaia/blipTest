@@ -68,5 +68,28 @@ namespace HerokuDockerDeployment.Controllers
             };
             return null;
         }
+
+        [HttpGet("{nomeRepo}/{pos}")]
+        public async Task<Root> GetRepos(string nomeRepo, int pos)
+        {
+
+            try
+            {
+
+                var httpClient = new HttpClient();
+                httpClient.DefaultRequestHeaders.Add("User-Agent", "Usando Agente GITHUB");
+                httpClient.BaseAddress = new Uri("https://api.github.com");
+                var gitHubApi = RestService.For<Igit>(httpClient);
+                var test = await gitHubApi.GetUser(nomeRepo);
+                var x = test.ToList().OrderBy(o => o.created_at).ToList();
+
+                return x[pos];
+            }
+            catch (Exception e)
+            {
+                System.Console.WriteLine(e);
+            };
+            return null;
+        }
     }
 }
